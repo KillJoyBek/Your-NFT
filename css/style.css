@@ -1,0 +1,406 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none !important;
+    list-style: none !important;
+    box-sizing: border-box;
+}
+
+ul, a, p, h1, h2, h3, h4, h5, h6{
+   padding: 0;
+   margin: 0;
+}
+ 
+body{
+    min-width: 320px;
+}
+
+.header{
+    padding-top: 24px;
+}
+
+
+.header__navbar{
+    background: #000 !important;
+    border-radius: 10px !important;
+    padding-top: 8px !important;
+    padding-bottom: 8px !important;
+}
+
+.header__nav-link{
+    color: #fff;
+    background: #9900ff;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 16px 28px;
+    margin-left: 10px;
+    transition: 0.5s;
+    display: block;
+}
+
+.header__nav-link:hover{
+    background: #d4aafd;
+    color: #9900ff;
+}
+
+.header__icon{
+    color: #9900ff;
+    font-size: 35px;
+    transition: 0.5s;
+}
+.header__icon:hover{
+    color: #d4aafd;
+}
+
+
+.header__ru{
+    background: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    padding: 8px 8px;
+    
+}
+.header__button-link{
+    color: #fff;
+    font-size: 17px;
+    text-transform: uppercase;
+    /* padding: 13px 16px; */
+    border-radius: 5px;
+    border: 2px solid #ff118c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s;
+    margin-right: 7px;
+    width: 57px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+}
+
+.header__button-link:hover{
+    background: #ff118c;
+    color: #fff;
+}
+.header__button{
+    display: flex;
+}
+
+.header__bell{
+    font-size: 18px;
+    color: white;
+    margin-right: 20px;
+    transition: 0.5s;
+}
+.header__bell:hover{
+    color: #9900ff;
+    
+}
+
+/* header end */
+/* ******************************* */
+
+/* slider start */
+/* *********************************** */
+
+.main{
+    margin-top: 42px;
+}
+
+/* .main__slider .carousel-inner{
+    border-radius: 10px;
+    overflow: hidden;
+} */
+
+.main__slider-text{
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 43px;
+    margin-top: 50px;
+}
+
+.main__slider-title{
+    font-size: 30px;
+    max-width: 360px;
+    width: 100%;
+    color: white;
+}
+
+.main__slider-bt{
+    width: 82px;
+    padding:  3px 2px;
+    background: #fbf6ff;
+    border: 2px solid #9900ff;
+    border-radius: 25px;
+    display: flex;
+    justify-content: space-between;
+    margin-left:auto; 
+    margin-top: 14px;
+}
+.main__carousel-control-prev{
+    width: 34px;
+    height: 26px;
+    border-radius: 25px;
+    border: none;
+    box-shadow: 0 0 3px 2px #dedbe1;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.main__carousel-control-prev:hover{
+    box-shadow: none;
+    
+}
+
+.main__slider-icon{
+    height: 13px;
+    width: 9px;
+    color: #9900ff;
+    
+}
+
+.main__slider-url{
+    display: flex;
+    color: #999999;
+    
+}
+
+.main__slider-link{
+    font-size: 15px;
+    margin-right: 38px;
+    color: white;
+    margin-top: 45px;
+}
+
+.main__slider-ds{
+    text-transform: uppercase;
+}
+
+.main__slider-btn{
+    font-size: 17px;
+    margin-top: 28px;
+    color: white;
+    padding: 16px 37px;
+    border: none;
+    border-radius: 10px;
+    background: #da267b;
+    transition: 0.5s;
+    
+}
+.main__slider-btn:hover{
+    color: #da267b;
+    background: white;
+}
+/* ************************************** */
+/*  slider end */
+
+
+/* tr4eanding start */
+/* ****************************************** */
+.main__treanding-title
+{
+    margin-top: 20px;
+    margin-bottom: 26px;
+    font-size: 17px;
+    color: black;
+    font-weight: 900;
+}
+
+.treanding
+{
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    
+}
+
+.treanding__text
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.treanding__img
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.5s;
+    transform: scale(1);
+}
+
+.treanding__tt 
+{
+    font-size: 21px;
+    font-weight: 800;
+}
+
+.treanding__ds
+{
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.treanding:hover .treanding__img
+{
+    transform: scale(1.5);
+}
+
+/* ************************************************ */
+/* treanding end */
+
+
+/* user start */
+/* ********************************** */
+
+.user__block
+{
+    background: #e2e2e2;
+    border-radius: 10px;
+    padding: 17px 20px;
+}
+
+.user__block-link
+{ 
+    
+    display: flex;
+    align-items: center;
+    padding: 28px 12px;
+    border-radius: 10px;
+    transition: 0.4s;
+}
+
+.user__block-title
+ {  
+    color: #000;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.user__block-ds
+{
+    font-size: 14px; 
+    color: #000;
+    font-weight: 600;
+}
+
+.user__block-img{
+    margin-top: 7px;
+}
+
+.user__block-link:hover
+{
+    background: white;
+    box-shadow: 0 0 15px 5px #bebebe;
+}
+/* ******************************************* */
+/* user end */
+
+
+/* ********************************************* */
+/* tabs start */
+
+.tab-box
+{
+    position: relative;
+    margin-bottom: 24px;
+    
+}
+
+.tab-box__text
+{
+    position: absolute;
+    bottom: 10px;
+    background: rgb(0, 0,0, 0.30);
+    width: 92%;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+    padding: 17px;
+    
+}
+
+
+.tab-box__img
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.tab-box__name
+{
+    font-size: 14px;
+    color: white;
+    cursor: pointer;
+}
+
+.tab-box__icon
+{
+    font-size: 12px;
+    font-weight: 600;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 12px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+
+.tab-box__user
+{
+    margin-right: 8px;
+}
+
+.tab-box__number
+{
+    font-size: 14px;
+    color: white;
+    cursor: pointer;
+}
+
+
+.block-tabs .nav-pills .nav-link
+{
+    border: 2px solid #ff118c;
+    border-radius: 8px;
+    padding: 6px 10px;
+    font-size: 12px;
+    color: #000;
+    margin: 5px;
+    transition: 0.5s;
+}
+
+.block-tabs .nav-pills .nav-link.active, .nav-pills .show > .nav-link{
+    background: #ff118c;
+    color: white;
+}
+
+
+.block-tabs .mb-3
+{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 19px;
+}
+/* tabs end */
+/* ********************************************* */
+
+.footer__img
+{
+    width: 100%;
+    margin-bottom: 100px;
+}
